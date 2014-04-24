@@ -1,3 +1,46 @@
+*{
+	font-family:arial, sans-serif;
+	font-size:small;
+}
+.header{
+	height:60px; width:100%;
+}
+li{
+	display:inline-block;
+	padding:5px;
+	text-align:right;
+}
+.main{
+	display:block;
+	text-align:center;
+}
+.google{
+	height:95px;
+	margin-top:135px;
+}
+.input{
+	width:600px; height:25px;
+	margin-top:20px;
+}
+button{
+	margin-top:10px;
+}
 p{
-	color:blue;
+	margin-top:30px;
+}
+.footer{
+	height: 60px; width: 100%;
+	background-color:#f2f2f2;
+	border-top:1px solid #f9f9f9;
+	position:fixed;
+	bottom:0;
+}
+span{
+	color:red;
+}
+#footer_list_right{
+	width:600px;
+}
+#footer_list_left{
+	width:600px;
 }
