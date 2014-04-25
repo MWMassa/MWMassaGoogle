@@ -4,11 +4,12 @@
 }
 .header{
 	height:60px; width:100%;
+	text-align: right;
 }
 li{
 	display:inline-block;
 	padding:5px;
-	text-align:right;
+	
 }
 .main{
 	display:block;
@@ -31,7 +32,7 @@ p{
 .footer{
 	height: 60px; width: 100%;
 	background-color:#f2f2f2;
-	border-top:1px solid #f9f9f9;
+	border-top:1px solid #fbfbfb;
 	position:fixed;
 	bottom:0;
 }
@@ -39,8 +40,13 @@ span{
 	color:red;
 }
 #footer_list_right{
-	width:600px;
+	display:inline-block;
+	float:right;
+	margin-right:30px;
 }
 #footer_list_left{
-	width:600px;
+	display:inline-block;
+	float:left;
+	margin-left: 30px;
+	padding:5px;
 }
